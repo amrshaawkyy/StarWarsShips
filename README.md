@@ -88,8 +88,6 @@ Then it will try a production build.
 
 ## Languages & tools
 
-### Axios
-
 ### HTML
 
 ### CSS
@@ -100,5 +98,6 @@ Then it will try a production build.
 - [Webpack](https://webpack.js.org/).
 - [Babel](https://babeljs.io/).
 
+### Axios
 
 
