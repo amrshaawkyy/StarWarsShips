@@ -1,6 +1,19 @@
 
 # PROJECT StarWars
 
+## Description
+```
+Data from SWAPI (Starships)
+‘Axios’ was used to get the data and fill the state in the stateful component.
+
+This is a StarWar application where you can view the data of all StartShips from name of the ship, the crew, the passengers and the hyperdrive class.
+
+Hints:
+o Side Drawer contains the Drawer Toggle for the mobile App.
+o Starships component contains all the details about the starships.
+
+```
+
 ## Requirements
 
 For development, you will only need Node.js installed on your environement.
