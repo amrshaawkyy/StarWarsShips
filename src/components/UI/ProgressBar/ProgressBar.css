@@ -1,0 +1,22 @@
+.containerStyles {
+    width: 20%;
+    height: 50%;
+    background-color: #e0e0de;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.fillerStyles {
+    height: 50%;
+    width: 0;
+    background-color: grey;
+    border-radius: inherit;
+    text-align: right;
+}
+
+.labelStyles {
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}

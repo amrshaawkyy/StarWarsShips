@@ -1,0 +1,73 @@
+.Toolbar {
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0, 20px;
+    box-sizing: border-box;
+    z-index: 90;
+}
+
+.Toolbar nav {
+    height: 100%;
+}
+
+.Logo {
+    height: 85%;
+    position: absolute;
+    left: 42%;
+    top: 0;
+}
+
+@media(max-width:499px) {
+    .DestopOnly {
+        display: none;
+    }
+}
+
+.menu {
+    top: 5%;
+    right: 5%;
+}
+
+.menu li {
+    display: inline;
+    width: 80px;
+    text-align: center;
+    float: right;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu li a {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.glow {
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px darkred, 0 0 20px darkred, 0 0 30px darkred, 0 0 40px darkred, 0 0 50px darkred, 0 0 60px darkred, 0 0 70px darkred;
+    }
+    
+    to {
+      text-shadow: 0 0 20px orange, 0 0 30px , 0 0 40px orange, 0 0 50px orange, 0 0 60px orange, 0 0 70px orange, 0 0 80px orange;
+    }
+  }

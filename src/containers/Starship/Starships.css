@@ -1,0 +1,17 @@
+.Starships{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    /* box-shadow: 0 2px 1px #ccc; */
+    margin: auto;
+    padding: 10px 0;
+    width: 80%;
+}
+@media(max-width:700px)
+{
+   .Starships{
+      width: 70%;
+      margin-left: 10%;
+   }
+  
+}

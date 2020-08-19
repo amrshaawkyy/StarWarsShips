@@ -1,0 +1,40 @@
+.Button {
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    -webkit-transition: color 1s; 
+    transition: color 1s; 
+}
+
+.Success {
+    color: #5C9210;
+    margin-left: 700px;
+}
+
+.Button:hover, .Button:active {
+    background-color: black;
+    color: darkred;
+}
+
+.Danger {
+    color: #5C9210;
+}
+
+@media (max-width:500px) {
+    .Success {
+        margin-left: 0px;
+    }
+    /* .rightimg {
+        max-width: 50%;
+        height: 50px;
+    } */
+}
+/* .rightimg {
+    max-width:100%;
+    height:100px;
+} */
